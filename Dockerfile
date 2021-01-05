@@ -1,7 +1,7 @@
 ARG VAULT_VERSION=1.6.1
 FROM vault:${VAULT_VERSION}
 
-ARG PLUGIN_VERSION="static-2020-11-19"
+ARG PLUGIN_VERSION="static-2021-01-05"
 RUN mkdir -p /vault/plugins \
   && chown vault:vault /vault/plugins \
   && cd /vault/plugins \
